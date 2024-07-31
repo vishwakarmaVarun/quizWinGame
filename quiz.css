@@ -95,6 +95,7 @@ h1{
 .keyboard button{
     width: calc(100% / 10 - 5px);
     padding: 8px;
+    text-align: center;
 }
 
 .keyboard button[disabled]{
@@ -164,5 +165,13 @@ h1{
     .container{
         padding: 30px 15px;
         align-items: center;
+    }
+
+    h1{
+        font-size: 2rem;
+    }
+
+    .keyboard button {
+        font-size: 1rem;
     }
 }

@@ -21,7 +21,6 @@ const getRandomWord = () => {
     // Selecting a random word and hint from the wordlist
     const {word, hint} = wordList[Math.floor(Math.random() * wordList.length)];
     currentWord = word;
-    console.log(word);
     document.querySelector(".hint-text b").innerText = hint;
     resetGame();
 }
